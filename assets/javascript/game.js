@@ -1,3 +1,9 @@
+
+
+//I want a 5 character string composed of characters picked randomly from the set [a-zA-Z0-9].
+//What's the best way to do this with JavaScript?
+
+
 function makeid()
 {
     var text = "";
@@ -8,3 +14,6 @@ function makeid()
 
     return text;
 }
+
+
+
