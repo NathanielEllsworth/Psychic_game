@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <meta charset="UTF-8">
+
+    <title>Psychic Game</title>
+
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
+
+    <script src="assets/javascript/game.js"></script>
+
+
 </head>
+
 <body>
+<div class=container>
+    <div class=row>
+        <div class="col-lg-2">
+            <br>
+        </div>
+        <center><div class="col-lg-8" id="main">
+            <h3>There are 26 letters in the english alphabet. You have 9 tries to guess which one I am thinking of. </h3>
+            <br>
+            <br>
+            <!-- Where the wins will be populated -->
+            <p>Wins:
+            <p id="win">0</p></p>
+            <br>
+            <!-- Where the losses will be populated -->
+            <p>Losses:
+            <p id="loss">0</p></p>
+            <br>
+            <!-- Where the remaining guesses will be populated -->
+            <p>Guesses Remaining:
+            <p id="guessesRemaining">9</p></p>
+            <br>
+            <!-- Where the current guesses will be populated -->
+            <p>Letters Guessed So Far:
+            <p id="guessesUsed"></p></p>
+        </div></center>
+        <div class="col-lg-2">
+            <br>
+        </div>
+    </div>
+
 
 </body>
 </html>
